@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -28,48 +28,81 @@
 
   <!-- Add your site or application content here -->
 
+<div class="container">
+<div class="row">
 
-<div id="container">
 
-
-<div id=header>
+ 
 	<a href="index.html"><img src="img/logo.jpg"></a>
-</div>
 
 
+<nav class="navbar navbar-expand-lg navbar-default">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><p>pages</p>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
 
-<nav>
-	<ul>
-	<li><a href="webdesign.html">web design</a></li>
-	<li><a href="photography.html">photography</a></li>
-	<li><a href="digitalanalytics.html">digital analytics</a></li>
-	<li><a href="contact.html">contact</a></li>
+  <li class="nav-item active"><a href="webdesign.html" class="nav-link">web design</a></li>
+  <li class="nav-item active"><a href="photography.html" class="nav-link">photography</a></li>
+  <li class="nav-item active"><a href="digitalanalytics.html" class="nav-link">digital analytics</a></li>
+  <li class="nav-item active"><a href="contact.html" class="nav-link">contact</a></li>
 
 </ul>
-<div id="navBar"></div>
+</div>
 </nav>
 
+</div>
 
 </div>
 
 <div id="content1">
   <h2>web design</h2>
+</div>
 
-<div class="webpreviews">
 
-<div id="web1"> <a href="https://github.uconn.edu/pages/cmk14012/NYXLP/"><img src="img/web1.png"></a><div class="lowerblock">NYX Cosmetics Landing Page</div></div>
+<div class="container-fluid" id="webpages">
+<div class="card bg-dark text-white" id="wp1">
+  <a href="https://github.uconn.edu/pages/cmk14012/FINAL/" class="imglink"><img class="card-img" src="img/web4.png">
+  <div class="card-img-overlay" style="background-color: rgb(102, 102, 102, 0.7);">
+    <h2 class="card-title">JavaScript Welcome Page</h2>
+    <p class="card-text">This website is a responsive and interactive welcome page that displays the local time and date of the user, as well as the current weather at UConn.  </p>
+  
+  </div></a>
+</div>
 
-<div id="web2"> <a href="https://github.uconn.edu/pages/cmk14012/midterm/"> <img src="img/web2.png"></a><div class="lowerblock">CSS Animation Showcase</div></div>
+<div class="card bg-dark text-white" id="wp2">
+  <a href="https://github.uconn.edu/pages/cmk14012/NYXLP/" class="imglink"><img class="card-img" src="img/web1.png">
+  <div class="card-img-overlay" style="background-color: rgb(102, 102, 102, 0.7);">
+    <h2 class="card-title">NYX Cosmetics Landing Page</h2>
+    <p class="card-text">This website is a mock landing page for a lip kit by Nyx Cosmetics. </p>
+  
+  </div></a>
+</div>
 
-<div id="web3"> <a href="https://github.uconn.edu/pages/cmk14012/madlib/"><img src="img/web3.png"></a><div class="lowerblock">JavaScript MadLib</div></div>
+<div class="card bg-dark text-white" id="wp3">
+  <a href="https://github.uconn.edu/pages/cmk14012/madlib/" class="imglink"><img class="card-img" src="img/web3.png">
+  <div class="card-img-overlay" style="background-color: rgb(102, 102, 102, 0.7);">
+    <h2 class="card-title">JavaScript Mad Lib</h2>
+    <p class="card-text">This webpage is an interactive site that allows users to enter text fields and then display those inputs in a pre-formatted Mad Lib, using JavaScript. </p>
+  
+  </div></a>
+</div>
 
-<div id="web4"> <a href="https://github.uconn.edu/pages/cmk14012/FINAL/"> <img src="img/web4.png"></a><div class="lowerblock">JavaScript Welcome Screen</div></div>
+<div class="card bg-dark text-white" id="wp4">
+  <a href="https://github.uconn.edu/pages/cmk14012/midterm/" class="imglink"><img class="card-img" src="img/web2.png">
+  <div class="card-img-overlay" style="background-color: rgb(102, 102, 102, 0.7);">
+    <h2 class="card-title">CSS Animation Showcase</h2>
+    <p class="card-text">This webpage is a research showcase about the capabilities of CSS animation. </p>
+  
+  </div></a>
+</div>
 
 </div>
 
 
 
-</div>
+
+
 
 <footer>
 	
@@ -120,6 +153,9 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

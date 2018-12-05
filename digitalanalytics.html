@@ -10,8 +10,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -28,37 +27,69 @@
 
   <!-- Add your site or application content here -->
 
-
-<div id="container">
-
-
-<div id=header>
-	<a href="index.html"><img src="img/logo.jpg"></a>
-</div>
+<div class="container">
+<div class="row">
 
 
+ 
+  <a href="index.html"><img src="img/logo.jpg"></a>
 
-<nav>
-	<ul>
-	<li><a href="#">web design</a></li>
-	<li><a href="#">photography</a></li>
-	<li><a href="#">digital analytics</a></li>
-	<li><a href="#">contact</a></li>
+
+<nav class="navbar navbar-expand-lg navbar-default">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><p>pages</p>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+
+  <li class="nav-item active"><a href="webdesign.html" class="nav-link">web design</a></li>
+  <li class="nav-item active"><a href="photography.html" class="nav-link">photography</a></li>
+  <li class="nav-item active"><a href="digitalanalytics.html" class="nav-link">digital analytics</a></li>
+  <li class="nav-item active"><a href="contact.html" class="nav-link">contact</a></li>
 
 </ul>
-<div id="navBar"></div>
+</div>
 </nav>
 
 
+
+</div>
+</div>
+
+<div class="container-fluid" id="content1">
+  <h2>digital analytics</h2>
+
+
+<p>Digital and social analytics are important for any business to be aware of. I have been taking on projects for companies which includes analyzing their social media sites, their branding, and the efficiency of their external and internal content. </p>
+
+<p>Click on the following for a PDF version of my reports for Norwich Public Utilities, a municipality in Southeastern Connecticut.</p>
 </div>
 
 
 
+<div class="container" id="pdfs">
 
+<div class="card-deck">
+  <div class="card">
+    <a href="NPU.pdf"><img class="card-img-top" src="img/BG.png"></a>
+    <div class="card-body">
 
+      <h5 class="card-title">Brand Style Guide</h5>
+      <p class="card-text">Also called a brand bible, this document outlines the design standards a brand should stick to in order to increase brand recognition.</p>
+     
+    </div>
+  </div>
+  <div class="card">
+    <a href="SMAudit.pdf"><img class="card-img-top" src="img/SMAudit.png"></a>
+    <div class="card-body">
+      <h5 class="card-title">Social Media Audit</h5>
+      <p class="card-text">This presentation was an intricate analysis of the social media results NPU was generating in the summer of 2018.</p>
+      
+    </div>
+  </div>
 
+</div>
 
-
+</div>
 
 
 <footer>
@@ -110,6 +141,10 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -28,37 +28,66 @@
 
   <!-- Add your site or application content here -->
 
-
-<div id="container">
-
-
-<div id=header>
-	<a href="index.html"><img src="img/logo.jpg"></a>
-</div>
+<div class="container">
+<div class="row">
 
 
+ 
+  <a href="index.html"><img src="img/logo.jpg"></a>
 
-<nav>
-	<ul>
-	<li><a href="#">web design</a></li>
-	<li><a href="#">photography</a></li>
-	<li><a href="#">digital analytics</a></li>
-	<li><a href="#">contact</a></li>
+
+<nav class="navbar navbar-expand-lg navbar-default">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><p>pages</p>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+
+  <li class="nav-item active"><a href="webdesign.html" class="nav-link">web design</a></li>
+  <li class="nav-item active"><a href="photography.html" class="nav-link">photography</a></li>
+  <li class="nav-item active"><a href="digitalanalytics.html" class="nav-link">digital analytics</a></li>
+  <li class="nav-item active"><a href="contact.html" class="nav-link">contact</a></li>
 
 </ul>
-<div id="navBar"></div>
+</div>
 </nav>
 
 
+
+</div>
+</div>
+
+<div class="container">
+  <h2>photography</h2>
+  <p> photography has been a passion of mine for over a decade. I started off taking pictures of my cats in funny hats with my digital Kodak camera in the mid-2000s, and evolved into taking nature, macro and landscape images, and I am finally now venturing off into taking couple and family portraits. </p>
+</div>
+<div class="card mb-3">
+
+  <img class="card-img-top" src="img/photo1.png">
+
+
+
+  <div class="card-body">
+    <h5>Engagement Shoot | Mitch and Haley</h5>
+    
+ <a href="mah.html" class="btn btn-dark" style="font-family: 'Source Sans Pro', sans-serif;">View</a>
+  </div>
 </div>
 
 
 
 
+<div class="card mb-3">
+
+  <img class="card-img-top" src="img/photo2.png">
 
 
 
-
+  <div class="card-body">
+    <h5>Save The Dates | Catherine and Andrew</h5>
+    
+ <a href="aac.html" class="btn btn-dark" style="font-family: 'Source Sans Pro', sans-serif;">View</a>
+  </div>
+</div>
 
 
 <footer>
@@ -110,6 +139,9 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
