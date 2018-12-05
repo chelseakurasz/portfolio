@@ -52,16 +52,20 @@
 
 
 </div>
+<div class="row">
 
-<form id="contact-form" method="post" action="contact.php" role="form">
+<div id="contactform" class="col-md-7">
+  <p> I am very excited to hear from you. Please email me using the form below and I will respond shortly!</p>
 
-  <div class="form-group col-md-6">
+<form id="contact-form" action="https://formspree.io/chelseakurasz@gmail.com" method="POST" role="form">
+
+  <div class="form-group col-md-12">
     <label for="exampleFormControlInput1">*Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required="required">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required="required" name="name">
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-12">
     <label for="exampleFormControlSelect2">I'm emailing about...</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
+    <select multiple class="form-control" id="exampleFormControlSelect2" name="name">
       <option>photography</option>
       <option>web design</option>
       <option>digital analytics</option>
@@ -69,21 +73,24 @@
       <option>other</option>
     </select>
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-12">
     <label for="exampleFormControlTextarea1">*Message:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="required"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="required"name="name"></textarea>
   </div>
   <div class="col-md-12">
                 <input type="submit" class="btn btn-dark btn-send" value="Send message">
             </div>
 </form>
+</div>
+
+<div class="col-md-4">
+<p> Please visit my Her Campus author page! </p>
+<a href="https://www.hercampus.com/author/chelsea-kurasz"><img src="img/hc.jpg"></a>
+
+</div>
 
 
-
-
-
-
-
+</div>
 
 
 
